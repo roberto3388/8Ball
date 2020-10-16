@@ -14,7 +14,7 @@ class Main {
       System.out.println("\nWhat is your yes/no question?\n");
       answerOne = scan.nextLine();
       Random rand = new Random();
-      int value = rand.nextInt(3-1) + 1;
+      int value = rand.nextInt(4-1) ;
       if(value == 1) {
         System.out.print("\nYes\n");
       }
